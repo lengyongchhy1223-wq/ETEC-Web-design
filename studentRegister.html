@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form style="width: 400px; margin: auto;">
+
+        <h1><u><i>Student Register</i></u></h1>
+
+        <label>Enter Name</label><br>
+        <input type="text" name="name" placeholder="Enter your name"><br><br>
+
+        <label>Enter Email</label><br>
+        <input type="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label>Enter Password</label><br>
+        <input type="password" name="password" placeholder="Enter your Password" required><br><br>
+
+        <label>Select Course:</label><br>
+        <select name="course">
+            <option>Web Design + React.jsx (69$)</option>
+            <option>Web Design + Vue.js (69$)</option>
+            <option>Php + Laravel (109$)</option>
+            <option>Java + Spring Boot (109$)</option>
+        </select><br><br>
+
+        <label>Select Time:</label><br>
+        <select name="time" style="width: 50%;">
+            <optgroup label="MON - FRI">
+                <option>7:00 - 8:30(AM)</option>
+                <option>8:30 - 10:00(AM)</option>
+                <option>1:00 - 2:30(PM)</option>
+                <option>2:30 - 4:00(PM)</option>
+            </optgroup>
+            <optgroup label="SAT - SUN" style="width: 50%;">
+                <option>7:00 - 10:00(AM)</option>
+                <option>1:00 - 4:00(PM)</option>
+            </optgroup>
+        </select><br><br>
+
+        <label>Select Term:</label><br>
+        <select name="term" style="width: 50%;">
+            <option>MON - FRI</option>
+            <option>SAT - SUN</option>
+        </select><br><br>
+
+        <label>Select Floor:</label><br>
+        <select name="floor" style="width: 50%;">
+            <option>Floor 1</option>
+            <option>Floor 2</option>
+            <option>Floor 3</option>
+        </select><br><br>
+
+        <button type="submit">Register</button>
+        
+    </form>
+
+</body>
+</html>

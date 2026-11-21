@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Form{
+            width: 400px;
+            margin: auto;
+            padding: 40px;
+            border: 2px solid gray;
+            border-radius: 10px
+        }
+        .title{
+            text-shadow: 2px 2px red, 1px 1px gray;
+            text-decoration: underline;
+            text-align: center;
+            font-size: 45px;
+        }
+        .Form label{
+            color: black;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .Form input{
+            width: 98%;
+            font-size: 25px;
+            border-radius: 20px;
+            border: none;
+            padding-left: 10px;
+            background-color: rgba(76, 79, 82, 0.153);
+        }
+        .Form textarea{
+            width: 98%;
+            font-size: 25px;
+        }
+        .Form button{
+            font-size: 25px;
+            /* margin-left: auto;
+            display: block; */
+            margin-left: 310px;
+        }
+    </style>
+</head>
+<body>
+    
+    <form class="Form">
+        <h1 class="title"><i>Contact Form</i></h1>
+
+        <label>Enter Firstname</label>
+        <input type="text" name="firstname" placeholder="Enter your firstname"><br><br>
+
+        <label>Enter Lastname</label>
+        <input type="text" name="lastname" placeholder="Enter your lastname"><br><br>
+
+        <label>Enter Email:</label>
+        <input type="email" name="email" required placeholder="Enter your email"><br><br>
+
+        <label>Enter Password:</label>
+        <input type="password" name="password" placeholder="Enter your password"><br><br>
+
+        <label>Text Message</label><br>
+        <textarea name="text">
+
+        </textarea><br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
